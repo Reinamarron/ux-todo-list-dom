@@ -1,4 +1,3 @@
-
 let todos = [
     {
         completed: false,
@@ -23,10 +22,25 @@ function renderTodoApp() {
     let h1 = document.createElement("h1")
     // your code here
 
-    h1.innerText = "Todo List"
+    h1.innerText = "Todo List";
 
-    app.appendChild(h1)
+    const TodoListElement = document.createElement('ul');
+
+    
+
+    app.appendChild(h1);
     // and maybe some here
-}
+    const container = document.createElement("div");
+    document.body.append(TodoListElement);
+    
+
+    header2.innerText = "Take Jim to the hair salon";
+    TodoListElement.classList.add('todo-list');
+
+
+    app.body.appendChild(header);
+    for (let i = 0; i< directory.length; i++){
+        const todo = TodoListElement(1)   
+    }
 
 renderTodoApp()
