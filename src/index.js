@@ -28,7 +28,13 @@ function renderTodoApp() {
 
     app.appendChild(h1);
     // and maybe some here
+    const inputElement = document.createElement('input');
+    app.appendChild(inputElement);
+    const buttonElement = document.createElement('button');
+    app.appendChild(buttonElement);
+    buttonElement.innerText = "add todo"
     const container = document.createElement("div");
+    
 
     //header2.innerText = "Take Jim to the hair salon";
     TodoListElement.classList.add('todo-list');
